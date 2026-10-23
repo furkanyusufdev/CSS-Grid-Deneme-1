@@ -1,0 +1,13 @@
+.item {
+    background-color: aqua;
+    text-align: center;
+    color: grey;
+}
+
+.grid-container {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}
